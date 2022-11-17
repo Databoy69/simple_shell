@@ -203,6 +203,7 @@ If no argument is given, the command is interpreted as cd $HOME.
 If the argument - is given, the command is interpreted as cd $OLDPWD and the pathname of the new working directory is printed to standad output.
 If the argument, -- is given, the command is interpreted as cd $OLDPWD but the pathname of the new working directory is not printed.
 The environment variables PWD and OLDPWD are updated after a change of directory.
+
 Example:
 
 $ ./hsh
@@ -221,6 +222,7 @@ Handles aliases.
 alias: Prints a list of all aliases, one per line, in the form NAME='VALUE'.
 alias NAME [NAME2 ...]: Prints the aliases NAME, NAME2, etc. one per line, in the form NAME='VALUE'.
 alias NAME='VALUE' [...]: Defines an alias for each NAME whose VALUE is given. If name is already an alias, its value is replaced with VALUE.
+
 Example:
 
 $ ./hsh
@@ -284,6 +286,9 @@ Executing a program from another program
 Handling dynamic memory allocation in a large program
 Pair programming and team work
 Building a test suite to check our own code
+
+
 Authors
+
 Prince Otuya
 Mustapha Mukhtar
