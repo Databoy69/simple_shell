@@ -144,7 +144,7 @@ $ echo "echo $?" | ./hsh
 0
 $$
 
-The second $ is substitued with the current process ID.
+The second $ is substitued with the current process ID
 
 Example:
 
@@ -256,6 +256,7 @@ setenv
 Usage: setenv [VARIABLE] [VALUE]
 Initializes a new environment variable, or modifies an existing one.
 Upon failure, prints a message to stderr.
+
 Example:
 
 $ ./hsh
